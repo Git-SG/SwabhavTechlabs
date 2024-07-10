@@ -13,7 +13,7 @@ public class MinutesToHoursAndMinutesConverter {
 		int hours = minutes / 60;
 		int remainingMinutes = minutes % 60;
 		
-		System.out.println(minutes + " minutes is " + hours + " hours and " + remainingMinutes + " minutes)");
+		System.out.println(minutes + " minutes is " + hours + " hours and " + remainingMinutes + " minutes");
 		
 	}
 
