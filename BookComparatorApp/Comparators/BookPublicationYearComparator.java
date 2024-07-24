@@ -9,7 +9,7 @@ public class BookPublicationYearComparator implements Comparator<Book> {
 	@Override
 	public int compare(Book book1, Book book2) {
 		
-		return book1.getPublicationYear() - book2.getPublicationYear();
+		return book2.getPublicationYear() - book1.getPublicationYear();
 	}
 
 }
