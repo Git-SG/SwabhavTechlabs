@@ -59,7 +59,7 @@ public class Game {
 	}
 	
 	public boolean isDiagonalSame() {
-		if(board[1][1] != ' ' && ((board[0][0] == board[1][1] && board[1][1] == board[2][2]) || (board[0][2] == board[1][1] && board[1][1] == board[2][2])))
+		if(board[1][1] != ' ' && ((board[0][0] == board[1][1] && board[1][1] == board[2][2]) || (board[0][2] == board[1][1] && board[1][1] == board[2][0])))
 			return true;
 		
 		return false;
